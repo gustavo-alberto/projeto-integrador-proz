@@ -28,3 +28,6 @@ Nossa plataforma não seria possível sem o apoio e a colaboração de nossa com
 - Doe para organizações de resgate e abrigos de animais para ajudar a fornecer cuidados e recursos aos animais em necessidade.
 
 Juntos, podemos criar um mundo onde todos os animais tenham a chance de viver uma vida feliz e cheia de amor. Obrigado por fazer parte dessa jornada conosco! 🐾
+
+
+rtrtrrttrtt
