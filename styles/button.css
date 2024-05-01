@@ -1,0 +1,57 @@
+/* Botão Primário */
+
+.button-primary {
+    width: 120px;
+    height: 55px;
+    border: none;
+    background-color: #35CE8D;
+    color: white;
+    border-radius: 4px;
+}
+
+.button-primary:hover{
+    background-color: #12BF76;
+    cursor: pointer;
+}
+
+.button-primary a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button-primary a:visited{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Botão Secundário */
+
+.button-secondary {
+    width: 120px;
+    height: 55px;
+    border: 1px solid #12BF76;
+    background-color: #FFFFFF;
+    color: white;
+    border-radius: 4px;
+}
+
+.button-secondary:hover{
+    background-color: #F6F5FF;
+    cursor: pointer;
+}
+
+.button-secondary a{
+    font-size: 18px;
+    color: #12BF76;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button-secondary a:visited{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
