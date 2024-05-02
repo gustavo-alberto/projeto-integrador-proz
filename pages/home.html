@@ -12,13 +12,57 @@
 
     <title>Adote Me</title>
   </head>
+
+  <!-- Page Style -->
+  <style type="text/css">
+    .home-carrosel {
+      width: 800px;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 40px; /* Ajuste conforme necessário */
+      margin-bottom: 40px; /* Ajuste conforme necessário */
+      border-radius: 5px;
+      -webkit-box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.25);
+      -moz-box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.25);
+      box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.25);
+    }
+
+    .carrousel-slider {
+        display: flex;
+        gap: 20px;
+    }
+
+    .dot {
+        width: 20px;
+        height: 20px;
+        background: #35CE8D;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+    }
+
+    .carrosel-images img {
+        max-width: 90%; /* Define a largura máxima da imagem como 100% da largura do contêiner */
+        max-height: 90%; /* Define a altura máxima da imagem como 100% da altura do contêiner */
+        width: auto; /* Permite que a largura seja ajustada automaticamente para manter a proporção */
+        height: auto; /* Permite que a altura seja ajustada automaticamente para manter a proporção */
+    }
+
+    .depoimentos-section {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+  </style>
+
   <body>
     <!-- Header -->
     <header class="header">
       <div>
-        <a href="home.html"
-          ><img src="../images/logowhite.png" alt="logomarca"
-        /></a>
+        <a href="home.html"><img src="../images/logowhite.png" alt="logomarca"/></a>
       </div>
       <div class="header-nav-list">
         <ul>
@@ -38,8 +82,6 @@
         <div class="carrosel-images">
           <img src="../images/pets1.jpg" alt="user photo" />
         </div>
-
-        <div></div>
       </section>
 
       <div class="carrousel-slider">
