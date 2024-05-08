@@ -18,6 +18,13 @@
 
   <!-- Page Style -->
   <style type="text/css">
+    .tab {
+        font-size: 18px;
+    }
+    .tab:hover {
+        color: #35CE8D;
+        cursor: pointer;
+    }
   </style>
 
   <body>
@@ -40,7 +47,35 @@
 
     <!-- Conteúdo da Página -->
     <div class="page-content">
-
+        <h1>Perfil</h1>
+        <div style="display: flex; flex-direction: column; margin: 20px;">
+            <div style="margin: 20px;">
+                <ul style="display:flex; gap:30px; list-style: none">
+                    <li class="tab">Informações Pessoais</li>
+                    <li class="tab">Atividades Recentes</li>
+                    <li class="tab">Seus Pets</li>
+                </ul>
+            </div>
+            <div>
+                <div style="display: flex; align-items: center; justify-content: center;">
+                    <img src="../images/user1.jpg" alt="" style="width: 230px; height: 230px;">
+                </div>
+                <div style="display: flex; flex-direction: column; gap: 25px; justify-content: center; align-items: center;">
+                    <div class="select-container-item">
+                        <label for="">Seu Nome</label>
+                        <input type="text" placeholder="Nome">
+                    </div>
+                    <div class="select-container-item">
+                        <label for="">Seu Email</label>
+                        <input type="text" placeholder="Email">
+                    </div>
+                    <div class="select-container-item">
+                        <label for="">Informações Adicionais</label>
+                        <input type="text" placeholder="Outras informações">
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- Footer -->
