@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Importações -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/header.css" />
+    <link rel="stylesheet" href="../styles/footer.css" />
+    <link rel="stylesheet" href="../styles/card-depoimento.css" />
+    <link rel="stylesheet" href="../styles/card.css" />
+    <link rel="stylesheet" href="../styles/filter.css" />
+    <link rel="stylesheet" href="../styles/button.css" />
+
+    <title>Adote Me</title>
+  </head>
+
+  <!-- Page Style -->
+  <style type="text/css">
+    .tab a{
+      text-decoration: none;
+      font-size: 18px;
+      color: #212121;
+    }
+
+    .tab a:hover {
+        color: #35CE8D;
+        cursor: pointer;
+    }
+  </style>
+
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div>
+        <a href="home.html"><img src="../images/logowhite.png" alt="logomarca"/></a>
+      </div>
+      <div class="header-nav-list">
+        <ul>
+            <li><a href="animais-para-adocao.html">Animais para Adoção</a></li>
+            <li><a href="doar.html">Doar</a></li>
+            <li><a href="suporte.html">Suporte</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="./perfil-informacoes-pessoais.html">Meu Perfil</a></li>
+            <li><a href="home.html">Sair</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Conteúdo da Página -->
+    <div class="page-content">
+        <h1>Perfil</h1>
+        <div style="display: flex; flex-direction: column; margin: 20px;">
+            <div style="margin: 20px;">
+                <ul style="display:flex; gap:30px; list-style: none">
+                  <li class="tab"><a href="./perfil-informacoes-pessoais.html">Informações Pessoais</a></li>
+                  <li class="tab"><a href="./perfil-atividades-recentes.html">Atividades Recentes</a></li>
+                  <li class="tab"><a href="./perfil-seus-pets.html">Seus Pets</a></li>
+                </ul>
+            </div>
+            <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+                <div class="cards-container">
+                  <div class="card">
+                    <div class="card-img-container">
+                        <img src="../images/pets1.jpg" alt="">
+                    </div>
+                    <div class="card-text-container">
+                        <p class="card-title">Nome do pet</p>
+                        <p class="card-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+                    <div>
+                        <button class="card-action-button"><a href="confirmar-adocao.html">Mais</a></button>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <div class="card-img-container">
+                        <img src="../images/pets1.jpg" alt="">
+                    </div>
+                    <div class="card-text-container">
+                        <p class="card-title">Nome do pet</p>
+                        <p class="card-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+                    <div>
+                        <button class="card-action-button"><a href="confirmar-adocao.html">Mais</a></button>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <div class="card-img-container">
+                        <img src="../images/pets1.jpg" alt="">
+                    </div>
+                    <div class="card-text-container">
+                        <p class="card-title">Nome do pet</p>
+                        <p class="card-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+                    <div>
+                        <button class="card-action-button"><a href="confirmar-adocao.html">Mais</a></button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div>
+        <a href="home.html"
+          ><img src="../images/logowhite.png" alt="logomarca"
+        /></a>
+      </div>
+      <div class="footer-about">
+        <p>Adote Me | 2024</p>
+      </div>
+      <div class="footer-nav-list">
+        <ul>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-google"></i>
+          <i class="fa-brands fa-twitter"></i>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

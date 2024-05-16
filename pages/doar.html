@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Importações -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/header.css" />
+    <link rel="stylesheet" href="../styles/footer.css" />
+    <link rel="stylesheet" href="../styles/card-depoimento.css" />
+    <link rel="stylesheet" href="../styles/card.css" />
+    <link rel="stylesheet" href="../styles/filter.css" />
+    <link rel="stylesheet" href="../styles/button.css" />
+
+    <title>Adote Me</title>
+  </head>
+
+  <!-- Page Style -->
+  <style type="text/css">
+  </style>
+
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div>
+        <a href="home.html"><img src="../images/logowhite.png" alt="logomarca"/></a>
+      </div>
+      <div class="header-nav-list">
+        <ul>
+            <li><a href="animais-para-adocao.html">Animais para Adoção</a></li>
+            <li><a href="doar.html">Doar</a></li>
+            <li><a href="suporte.html">Suporte</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="./perfil-informacoes-pessoais.html">Meu Perfil</a></li>
+            <li><a href="home.html">Sair</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Conteúdo da Página -->
+    <div class="page-content">
+        <h2 style="margin-bottom: 40px;">Doar Pet</h2>
+        <div style="display: flex; gap: 20px; width: 800px;">
+            <div style="display: flex; flex-direction: column; width: 50%;">
+                <form>
+                    <div style="display: flex; flex-direction: column;">
+                        <!-- Filtro Animal -->
+                        <div class="select-container-item">
+                            <label for="">Animal</label>
+                            <select id="select-animal" name="select-animal">
+                                <option value="Cachorro">Cachorro</option>
+                                <option value="Gato">Gato</option>
+                                <option value="Coelho">Coelho</option>
+                            </select>
+                        </div>
+
+                        <!-- Filtro Raça -->
+                        <div class="select-container-item">
+                            <label for="">Raça</label>
+                            <select id="select-raca" name="select-raca">
+                                <option value="Viralata">Viralata</option>
+                                <option value="Viralata">Yorkshire</option>
+                                <option value="Basset">Basset</option>
+                            </select>
+                        </div>
+
+                        <!-- Filtro Idade -->
+                        <div class="select-container-item">
+                            <label for="">Idade</label>
+                            <select id="select-idade" name="select-idade">
+                                <option value="Viralata">Idade</option>
+                                <option value="Viralata">1 ano</option>
+                                <option value="Basset">2 anos</option>
+                            </select>
+                        </div>                    
+
+                        <!-- Filtro Temperamento -->
+                        <div class="select-container-item">
+                            <label for="">Temperamento</label>
+                            <select id="select-temperamento" name="select-temperamento">
+                                <option value="Afetuoso">Afetuoso</option>
+                                <option value="Tímido">Tímido</option>
+                                <option value="Brincalhão">Brincalhão</option>
+                            </select>
+                        </div>        
+                        
+                        <!-- Filtro Localização -->
+                        <div class="select-container-item">
+                            <label for="">Localização</label>
+                            <select id="select-localizacao" name="select-localizacao">
+                                <option value="Bairro">Bairro</option>
+                                <option value="Cidade">Cidade</option>
+                                <option value="Estado">Estado</option>
+                            </select>
+                        </div>
+
+                        <!-- Observações -->
+                        <div class="select-container-item">
+                            <label for="">Observações</label>
+                                <textarea id="observacoes" name="observacoes" rows="4" cols="40">
+                            </textarea>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div style="width: 50%; display: flex; flex-direction: column; justify-content: space-between; align-items: center;">
+                <div style="box-sizing: border-box; display: flex; flex-direction: column; justify-content: space-between; align-items: center; width: 100%; height: 300px; padding: 10px; gap:20px; border: 2px dashed #35CE8D;">
+                    <div style="width:90%; height: 50%; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 20px; border: 2px dashed #C1C1C1;">
+                        <i class="fa-solid fa-upload"></i>
+                        <p>Carregue a foto do pet</p>
+                    </div>
+                    <div style="width: 90%; height: 50%; display: flex; flex-direction: row; justify-content: center; align-items: center; gap: 10px; border: 2px dashed #C1C1C1;">
+                        <img src="../images/pets1.jpg" alt="" style="width: 35%; box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.3);">
+                        <img src="../images/pets2.jpg" alt="" style="width: 35%; box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.3);">
+                    </div>
+                </div>
+                <button class="button-primary"><a href="./pos-doacao.html">Doar</a></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div>
+        <a href="home.html"
+          ><img src="../images/logowhite.png" alt="logomarca"
+        /></a>
+      </div>
+      <div class="footer-about">
+        <p>Adote Me | 2024</p>
+      </div>
+      <div class="footer-nav-list">
+        <ul>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-google"></i>
+          <i class="fa-brands fa-twitter"></i>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

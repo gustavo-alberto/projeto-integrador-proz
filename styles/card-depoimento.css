@@ -1,0 +1,24 @@
+/* CARD DEPOIMENTO STYLE */
+
+.card-depoimento {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 450px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 5px;
+    -webkit-box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.25);
+    box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.25);
+    font-size: 14px;
+}
+
+.card-depoimento img {
+    max-width: 100%; /* Define a largura máxima da imagem como 100% da largura do contêiner */
+    max-height: 100%; /* Define a altura máxima da imagem como 100% da altura do contêiner */
+    width: auto; /* Permite que a largura seja ajustada automaticamente para manter a proporção */
+    height: auto; /* Permite que a altura seja ajustada automaticamente para manter a proporção */
+}
