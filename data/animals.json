@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "petName": "Ted",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "petImage": "Testing image"
+    },
+    {
+        "id": 2,
+        "petName": "Caramelo",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "petImage": "Testing image"
+    }
+]
