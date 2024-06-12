@@ -1,0 +1,83 @@
+/* Filter Style */
+.select-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px;
+  gap: 50px;
+}
+
+.select-container-item {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 5px;
+}
+
+.select-container-item label {
+  color: #35ce8d;
+  font-weight: bold;
+}
+
+.select-container-item select {
+  width: 170px;
+  height: 50px;
+  background-color: #f7f7fd;
+  border: none;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.select-container-item input {
+  width: 350px;
+  height: 10px;
+  background-color: #f7f7fd;
+  border: none;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.select-container-item-error input {
+  width: 350px;
+  height: 10px;
+  background-color: #fff5f5;
+  border: none;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.select-container-item-error label::after {
+  content: ' *';
+  color: red;
+}
+
+.select-container-item-error input::placeholder {
+  color: red;
+}
+
+.button-primary {
+  background-color: #35ce8d;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-primary:hover {
+  background-color: #2eae74;
+}
+
+.button-disabled {
+  background-color: #cccccc;
+  color: #666666;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: not-allowed;
+  transition: background-color 0.3s ease;
+}
+
+.button-disabled:hover {
+  background-color: #cccccc;
+}
