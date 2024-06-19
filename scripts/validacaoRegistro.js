@@ -34,12 +34,6 @@ document.addEventListener('keydown', () => {
     return isValid
   }
 
-  function validateRepeatPassword() {
-    const isValid = repitaSenha.value === senha.value && repitaSenha.value.trim() !== ''
-    validateInput(repitaSenha, isValid)
-    return isValid
-  }
-
   function validateForm(event) {
     const isFormValid = validateName() && validateEmail() && validatePassword()
 
