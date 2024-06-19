@@ -3,47 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Importações -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <script src="../scripts/validacaoRegistro.js" defer></script>
     <link rel="stylesheet" href="../styles/style.css" />
     <link rel="stylesheet" href="../styles/header.css" />
     <link rel="stylesheet" href="../styles/footer.css" />
     <link rel="stylesheet" href="../styles/card-depoimento.css" />
     <link rel="stylesheet" href="../styles/card.css" />
-    <link rel="stylesheet" href="../styles/filter.css" />
-    <link rel="stylesheet" href="../styles/button.css" />
-
+    <link rel="stylesheet" href="../styles/registro.css" />
     <title>Adote Me</title>
-  </head>
-
-  <!-- Page Style -->
-  <style type="text/css">
-    .or {
+    <style type="text/css">
+      .or {
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 20px;
         height: 20px;
         margin-bottom: 30px;
-    }
+      }
 
-    .custom-line {
-        background-color: #35CE8D;
+      .custom-line {
+        background-color: #35ce8d;
         width: 140px;
-        height: 2px; /* Altura da linha */
-    }
+        height: 2px;
+      }
 
-    .or span {
+      .or span {
         font-size: 20px;
-        color: #35CE8D;
-    }
-  </style>
-
+        color: #35ce8d;
+      }
+    </style>
+  </head>
   <body>
-    <!-- Header -->
     <header class="header">
       <div>
-        <a href="home.html"><img src="../images/logowhite.png" alt="logomarca"/></a>
+        <a href="home.html"><img src="../images/logowhite.png" alt="logomarca" /></a>
       </div>
       <div class="header-nav-list">
         <ul>
@@ -57,45 +51,45 @@
       </div>
     </header>
 
-    <!-- Conteúdo da Página -->
-    <div class="page-content">
-        <h1>Registre-se</h1>
-        <div style="width: 70%;">
-            <h4>Junte-se a nós hoje e faça parte desta missão de fazer a diferença na vida dos animais necessitados. É rápido, fácil e gratuito!</h4>
-            <div style="display: flex; flex-direction: column; align-items: center; gap: 50px;">
-                <div style="display: flex; flex-direction: column; gap: 25px; justify-content: center; align-items: center;">
-                    <div class="select-container-item">
-                        <label for="">Nome</label>
-                        <input type="text" placeholder="Nome">
-                    </div>
-                    <div class="select-container-item">
-                        <label for="">Senha</label>
-                        <input type="password" placeholder="Senha">
-                    </div>
-                    <div class="select-container-item">
-                        <label for="">Email</label>
-                        <input type="text" placeholder="Email">
-                    </div>
-                    <button class="button-primary"><a href="./pos-adocao.html">Registrar</a></button>
-                </div>
-                <h5>já possui conta? <a href="./login.html" style="color: #35CE8D;">Fazer login</a></h5>
-                <div class="or" style="margin-bottom: 0;">
-                    <div class="custom-line"></div>
-                    <span>ou</span>
-                    <div class="custom-line"></div>
-                </div>
-                <button class="button-primary" style="width: 300px;"><a href="./pos-adocao.html">Fazer login com o Google</a></button>
+    <form class="page-content">
+      <h1>Registre-se</h1>
+      <div style="width: 70%">
+        <h4>
+          Junte-se a nós hoje e faça parte desta missão de fazer a diferença na vida dos animais necessitados. É rápido,
+          fácil e gratuito!
+        </h4>
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 50px">
+          <div style="display: flex; flex-direction: column; gap: 25px; justify-content: center; align-items: center">
+            <div class="select-container-item">
+              <label for="nome">Nome</label>
+              <input id="nome" type="text" placeholder="Nome" />
             </div>
+            <div class="select-container-item">
+              <label for="senha">Senha</label>
+              <input id="senha" type="password" placeholder="Senha" />
+            </div>
+            <div class="select-container-item">
+              <label for="email">Email</label>
+              <input id="email" type="text" placeholder="Email" />
+            </div>
+            <button type="submit" class="button-primary">Registrar</button>
+          </div>
+          <h5>já possui conta? <a href="./login.html" style="color: #35ce8d">Fazer login</a></h5>
+          <div class="or" style="margin-bottom: 0">
+            <div class="custom-line"></div>
+            <span>ou</span>
+            <div class="custom-line"></div>
+          </div>
+          <button class="button-primary" style="width: 300px">
+            <a href="./pos-adocao.html">Fazer login com o Google</a>
+          </button>
         </div>
+      </div>
+    </form>
 
-    </div>
-
-    <!-- Footer -->
     <footer class="footer">
       <div>
-        <a href="home.html"
-          ><img src="../images/logowhite.png" alt="logomarca"
-        /></a>
+        <a href="home.html"><img src="../images/logowhite.png" alt="logomarca" /></a>
       </div>
       <div class="footer-about">
         <p>Adote Me | 2024</p>
