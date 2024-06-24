@@ -1,3 +1,6 @@
+-- Modelo DER
+-- https://app.brmodeloweb.com/#!/publicview/6679a9b8943d8cd5bd697a2e
+
 -- Criação das Tabelas
 CREATE TABLE Usuarios (
     id SERIAL PRIMARY KEY,
