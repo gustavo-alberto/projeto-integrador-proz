@@ -1,104 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Importações -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
-        <link rel="stylesheet" href="../styles/style.css" />
-        <link rel="stylesheet" href="../styles/header.css" />
-        <link rel="stylesheet" href="../styles/footer.css" />
-        <link rel="stylesheet" href="../styles/card-depoimento.css" />
-        <link rel="stylesheet" href="../styles/card.css" />
-        <link rel="stylesheet" href="../styles/filter.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Importações -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/header.css" />
+    <link rel="stylesheet" href="../styles/footer.css" />
+    <link rel="stylesheet" href="../styles/card-depoimento.css" />
+    <link rel="stylesheet" href="../styles/card.css" />
+    <link rel="stylesheet" href="../styles/filter.css" />
 
-        <script src="../scripts/animalsCardLoader.js" defer></script>
-        <title>Animais para adoção</title>
-    </head>
-    <body>
-        <!-- Header -->
-        <header class="header">
-            <div>
-                <a href="home.html"><img src="../images/logowhite.png" alt="logomarca"></a>
-            </div>
-            <div class="header-nav-list">
-                <ul>
-                    <li><a href="animais-para-adocao.html">Animais para Adoção</a></li>
-                    <li><a href="doar.html">Doar</a></li>
-                    <li><a href="suporte.html">Suporte</a></li>
-                    <li><a href="sobre.html">Sobre</a></li>
-                    <li><a href="./perfil-informacoes-pessoais.html">Meu Perfil</a></li>
-                    <li><a href="home.html">Sair</a></li>
-                </ul>
-            </div>
-        </header>
+    <script src="../scripts/animalsCardLoader.js" defer></script>
+    <title>Animais para adoção</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div>
+        <a href="../index.html"><img src="../images/logowhite.png" alt="logomarca" /></a>
+      </div>
+      <div class="header-nav-list">
+        <ul>
+          <li><a href="animais-para-adocao.html">Animais para Adoção</a></li>
+          <li><a href="doar.html">Doar</a></li>
+          <li><a href="suporte.html">Suporte</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="./perfil-informacoes-pessoais.html">Meu Perfil</a></li>
+          <li><a href="../index.html">Sair</a></li>
+        </ul>
+      </div>
+    </header>
 
+    <!-- Conteúdo da Página -->
+    <div class="page-content">
+      <h2>Animais para Adoção</h2>
 
-        <!-- Conteúdo da Página -->
-        <div class="page-content">
-            <h2>Animais para Adoção</h2>
-
-            <div class="select-container">
-                <!-- Filtro Animal -->
-                <div class="select-container-item">
-                    <label for="">Animal</label>
-                    <select id="select-animal" name="select-animal">
-                        <option value="Cachorro">Cachorro</option>
-                        <option value="Gato">Gato</option>
-                        <option value="Coelho">Coelho</option>
-                    </select>
-                </div>
-
-                <!-- Filtro Raça -->
-                <div class="select-container-item">
-                    <label for="">Raça</label>
-                    <select id="select-raca" name="select-raca">
-                        <option value="Viralata">Viralata</option>
-                        <option value="Yorkshire">Yorkshire</option>
-                        <option value="Basset">Basset</option>
-                    </select>
-                </div>
-
-                <!-- Filtro Temperamento -->
-                <div class="select-container-item">
-                    <label for="">Temperamento</label>
-                    <select id="select-temperamento" name="select-temperamento">
-                        <option value="Afetuoso">Afetuoso</option>
-                        <option value="Tímido">Tímido</option>
-                        <option value="Brincalhão">Brincalhão</option>
-                    </select>
-                </div>        
-                
-                <!-- Filtro Localização -->
-                <div class="select-container-item">
-                    <label for="">Localização</label>
-                    <select id="select-localizacao" name="select-localizacao">
-                        <option value="Bairro">Bairro</option>
-                        <option value="Cidade">Cidade</option>
-                        <option value="Estado">Estado</option>
-                    </select>
-                </div>
-            </div>
-
-            <div class="cards-container" id="cards-container">          
-            </div>
+      <div class="select-container">
+        <!-- Filtro Animal -->
+        <div class="select-container-item">
+          <label for="">Animal</label>
+          <select id="select-animal" name="select-animal">
+            <option value="Cachorro">Cachorro</option>
+            <option value="Gato">Gato</option>
+            <option value="Coelho">Coelho</option>
+          </select>
         </div>
 
-        <!-- Footer -->
-        <footer class="footer">
-            <div>
-                <a href="home.html"><img src="../images/logowhite.png" alt="logomarca"></a>
-            </div>
-            <div class="footer-about">
-                <p>Adote Me | 2024</p>
-            </div>
-            <div class="footer-nav-list">
-                <ul>
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-google"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                </ul>
-            </div>
-        </footer>
-    </body>
+        <!-- Filtro Raça -->
+        <div class="select-container-item">
+          <label for="">Raça</label>
+          <select id="select-raca" name="select-raca">
+            <option value="Viralata">Viralata</option>
+            <option value="Yorkshire">Yorkshire</option>
+            <option value="Basset">Basset</option>
+          </select>
+        </div>
+
+        <!-- Filtro Temperamento -->
+        <div class="select-container-item">
+          <label for="">Temperamento</label>
+          <select id="select-temperamento" name="select-temperamento">
+            <option value="Afetuoso">Afetuoso</option>
+            <option value="Tímido">Tímido</option>
+            <option value="Brincalhão">Brincalhão</option>
+          </select>
+        </div>
+
+        <!-- Filtro Localização -->
+        <div class="select-container-item">
+          <label for="">Localização</label>
+          <select id="select-localizacao" name="select-localizacao">
+            <option value="Bairro">Bairro</option>
+            <option value="Cidade">Cidade</option>
+            <option value="Estado">Estado</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="cards-container" id="cards-container"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div>
+        <a href="../index.html"><img src="../images/logowhite.png" alt="logomarca" /></a>
+      </div>
+      <div class="footer-about">
+        <p>Adote Me | 2024</p>
+      </div>
+      <div class="footer-nav-list">
+        <ul>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-google"></i>
+          <i class="fa-brands fa-twitter"></i>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>
